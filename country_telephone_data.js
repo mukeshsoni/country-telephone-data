@@ -1505,5 +1505,6 @@ for (var i = 0; i < allCountries.length; i++) {
 
 module.exports = {
            allCountries: allCountries,
-           allCountriesIso2Lookup: allCountriesIso2Lookup
+           allCountriesIso2Lookup: allCountriesIso2Lookup,
+           allCountryCodes: allCountryCodes
        };
