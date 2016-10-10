@@ -1,0 +1,12 @@
+{
+  "name": "country-telephone-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "country_telephone_data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["country", "telephone", "data", "format", "code"],
+  "author": "Mukesh Soni <mukeshsoni@gmail.com> (http://unstack.in/)",
+  "license": "MIT"
+}
