@@ -1,5 +1,15 @@
 ## Country telephone data
 
+How to use it - 
+
+```
+npm install country-telephone-data
+-- in your file
+var countryTelData = require('country-telephone-data')
+countryTelData.allCountries // has data as array of objects 
+countryTelData.allCountriesIso2Lookup // has data as a map (object) indexed by iso2 name of the country
+```
+
 Contains data about a country's telephone codes. It has information on the country's ISD code, the country's ISO name, and a subscribed format for the telephone numbers in that country.
 
 E.g.
