@@ -1,6 +1,6 @@
 {
   "name": "country-telephone-data",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "",
   "main": "country_telephone_data.js",
   "scripts": {
