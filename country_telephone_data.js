@@ -167,7 +167,7 @@ var allCountries = [
           'Brazil (Brasil)',
           'br',
           '55',
-          '+..-..-....-....'
+          '+..(..)....-....'
        ],
        [
           'British Indian Ocean Territory',
