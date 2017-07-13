@@ -1,7 +1,7 @@
 {
   "name": "country-telephone-data",
-  "version": "0.4.3",
-  "description": "",
+  "version": "0.4.4",
+  "description": "Has country codes for all countries in the world. Please send a PR if you see something missing or find a mistake.",
   "main": "country_telephone_data.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
