@@ -1,11 +1,15 @@
 {
   "name": "country-telephone-data",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "",
   "main": "country_telephone_data.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mukeshsoni/country-telephone-data"
+    },
   "keywords": ["country", "telephone", "data", "format", "code"],
   "author": "Mukesh Soni <mukeshsoni@gmail.com> (http://unstack.in/)",
   "license": "MIT"
