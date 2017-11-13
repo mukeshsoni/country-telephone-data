@@ -477,7 +477,7 @@ var allCountries = [
           'Finland (Suomi)',
           'fi',
           '358',
-          '+... .. ... .. ..'
+          '+... .. .... ....'
        ],
        [
           'France',
