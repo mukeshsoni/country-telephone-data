@@ -326,7 +326,7 @@ var allCountries = [
           'China (中国)',
           'cn',
           '86',
-          '+.. ..-........'
+          '+.. ... .... ...'
        ],
        [
           'Christmas Island',
