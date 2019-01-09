@@ -1,0 +1,778 @@
+{
+  "1": [
+    { "iso2": "us", "name": "United States", "format": "+. (...) ...-...." },
+    {
+      "iso2": "ca",
+      "name": "Canada",
+      "format": "+. (...) ...-....",
+      "areaCodes": [
+        "204", "236", "249", "250", "289", "306", "343", "365", "387", "403",
+        "416", "418", "431", "437", "438", "450", "506", "514", "519", "548",
+        "579", "581", "587", "604", "613", "639", "647", "672", "705", "709",
+        "742", "778", "780", "782", "807", "819", "825", "867", "873", "902",
+        "905"
+      ]
+    },
+    {
+      "iso2": "do",
+      "name": "Dominican Republic (República Dominicana)",
+      "format": "+.(...)...-....",
+      "areaCodes": ["809", "829", "849"]
+    },
+    {
+      "iso2": "pr",
+      "name": "Puerto Rico",
+      "format": "+. (...) ...-....",
+      "areaCodes": ["787", "939"]
+    },
+    { "iso2": "um", "name": "United States Minor Outlying Islands" }
+  ],
+  "7": [
+    { "iso2": "ru", "name": "Russia (Россия)", "format": "+. ... ...-..-.." },
+    {
+      "iso2": "kz",
+      "name": "Kazakhstan (Казахстан)",
+      "format": "+. ... ...-..-.."
+    }
+  ],
+  "20": [
+    { "iso2": "eg", "name": "Egypt (‫مصر‬‎)", "format": "+..(...)...-...." }
+  ],
+  "27": [{ "iso2": "za", "name": "South Africa", "format": "+..-..-...-...." }],
+  "30": [
+    { "iso2": "gr", "name": "Greece (Ελλάδα)", "format": "+..(...)...-...." }
+  ],
+  "31": [
+    {
+      "iso2": "nl",
+      "name": "Netherlands (Nederland)",
+      "format": "+.. .. ........"
+    }
+  ],
+  "32": [
+    { "iso2": "be", "name": "Belgium (België)", "format": "+.. ... .. .. .." }
+  ],
+  "33": [{ "iso2": "fr", "name": "France", "format": "+.. . .. .. .. .." }],
+  "34": [
+    { "iso2": "es", "name": "Spain (España)", "format": "+.. ... ... ..." }
+  ],
+  "36": [
+    {
+      "iso2": "hu",
+      "name": "Hungary (Magyarország)",
+      "format": "+..(...)...-..."
+    }
+  ],
+  "39": [
+    { "iso2": "it", "name": "Italy (Italia)", "format": "+.. ... ......" },
+    {
+      "iso2": "va",
+      "name": "Vatican City (Città del Vaticano)",
+      "format": "+.. .. .... ...."
+    }
+  ],
+  "40": [
+    { "iso2": "ro", "name": "Romania (România)", "format": "+..-..-...-...." }
+  ],
+  "41": [
+    {
+      "iso2": "ch",
+      "name": "Switzerland (Schweiz)",
+      "format": "+.. .. ... .. .."
+    }
+  ],
+  "43": [
+    {
+      "iso2": "at",
+      "name": "Austria (Österreich)",
+      "format": "+..(...)...-...."
+    }
+  ],
+  "44": [
+    { "iso2": "gb", "name": "United Kingdom", "format": "+.. .... ......" },
+    { "iso2": "gg", "name": "Guernsey" },
+    { "iso2": "im", "name": "Isle of Man" },
+    { "iso2": "je", "name": "Jersey" }
+  ],
+  "45": [
+    { "iso2": "dk", "name": "Denmark (Danmark)", "format": "+.. .. .. .. .." }
+  ],
+  "46": [
+    { "iso2": "se", "name": "Sweden (Sverige)", "format": "+.. .. ... .. .." }
+  ],
+  "47": [
+    { "iso2": "no", "name": "Norway (Norge)", "format": "+.. ... .. ..." },
+    { "iso2": "bv", "name": "Bouvet Island" },
+    { "iso2": "sj", "name": "Svalbard and Jan Mayen" }
+  ],
+  "48": [
+    { "iso2": "pl", "name": "Poland (Polska)", "format": "+.. ...-...-..." }
+  ],
+  "49": [
+    {
+      "iso2": "de",
+      "name": "Germany (Deutschland)",
+      "format": "+.. ... ......."
+    }
+  ],
+  "51": [{ "iso2": "pe", "name": "Peru (Perú)", "format": "+..(...)...-..." }],
+  "52": [
+    { "iso2": "mx", "name": "Mexico (México)", "format": "+..-..-..-...." }
+  ],
+  "53": [{ "iso2": "cu", "name": "Cuba", "format": "+..-.-...-...." }],
+  "54": [{ "iso2": "ar", "name": "Argentina", "format": "+..(...)...-...." }],
+  "55": [
+    { "iso2": "br", "name": "Brazil (Brasil)", "format": "+..-..-....-...." }
+  ],
+  "56": [{ "iso2": "cl", "name": "Chile", "format": "+..-.-....-...." }],
+  "57": [{ "iso2": "co", "name": "Colombia", "format": "+..(...)...-...." }],
+  "58": [{ "iso2": "ve", "name": "Venezuela", "format": "+..(...)...-...." }],
+  "60": [{ "iso2": "my", "name": "Malaysia", "format": "+.. ..-....-...." }],
+  "61": [
+    { "iso2": "au", "name": "Australia", "format": "+.. ... ... ..." },
+    { "iso2": "cx", "name": "Christmas Island" },
+    { "iso2": "cc", "name": "Cocos (Keeling) Islands" }
+  ],
+  "62": [{ "iso2": "id", "name": "Indonesia", "format": "+..-..-...-.." }],
+  "63": [{ "iso2": "ph", "name": "Philippines", "format": "+.. ... ...." }],
+  "64": [
+    { "iso2": "nz", "name": "New Zealand", "format": "+.. ...-...-...." },
+    { "iso2": "pn", "name": "Pitcairn Islands" }
+  ],
+  "65": [{ "iso2": "sg", "name": "Singapore", "format": "+.. ....-...." }],
+  "66": [
+    { "iso2": "th", "name": "Thailand (ไทย)", "format": "+..-..-...-..." }
+  ],
+  "81": [{ "iso2": "jp", "name": "Japan (日本)", "format": "+.. ... .. ...." }],
+  "82": [
+    {
+      "iso2": "kr",
+      "name": "South Korea (대한민국)",
+      "format": "+..-..-...-...."
+    }
+  ],
+  "84": [
+    { "iso2": "vn", "name": "Vietnam (Việt Nam)", "format": "+..-..-....-..." }
+  ],
+  "86": [{ "iso2": "cn", "name": "China (中国)", "format": "+.. ..-........" }],
+  "90": [
+    { "iso2": "tr", "name": "Turkey (Türkiye)", "format": "+.. ... ... .. .." }
+  ],
+  "91": [{ "iso2": "in", "name": "India (भारत)", "format": "+.. .....-....." }],
+  "92": [
+    {
+      "iso2": "pk",
+      "name": "Pakistan (‫پاکستان‬‎)",
+      "format": "+.. ...-......."
+    }
+  ],
+  "93": [
+    {
+      "iso2": "af",
+      "name": "Afghanistan (‫افغانستان‬‎)",
+      "format": "+..-..-...-...."
+    }
+  ],
+  "94": [
+    {
+      "iso2": "lk",
+      "name": "Sri Lanka (ශ්‍රී ලංකාව)",
+      "format": "+..-..-...-...."
+    }
+  ],
+  "95": [
+    {
+      "iso2": "mm",
+      "name": "Myanmar (Burma) (မြန်မာ)",
+      "format": "+..-...-..."
+    }
+  ],
+  "98": [
+    { "iso2": "ir", "name": "Iran (‫ایران‬‎)", "format": "+..(...)...-...." }
+  ],
+  "211": [
+    {
+      "iso2": "ss",
+      "name": "South Sudan (‫جنوب السودان‬‎)",
+      "format": "+...-..-...-...."
+    }
+  ],
+  "212": [
+    {
+      "iso2": "ma",
+      "name": "Morocco (‫المغرب‬‎)",
+      "format": "+...-..-....-..."
+    },
+    { "iso2": "eh", "name": "Western Sahara", "format": "+...-..-...." }
+  ],
+  "213": [
+    {
+      "iso2": "dz",
+      "name": "Algeria (‫الجزائر‬‎)",
+      "format": "+...-..-...-...."
+    }
+  ],
+  "216": [
+    { "iso2": "tn", "name": "Tunisia (‫تونس‬‎)", "format": "+...-..-...-..." }
+  ],
+  "218": [
+    { "iso2": "ly", "name": "Libya (‫ليبيا‬‎)", "format": "+...-..-...-..." }
+  ],
+  "220": [{ "iso2": "gm", "name": "Gambia", "format": "+...(...)..-.." }],
+  "221": [
+    { "iso2": "sn", "name": "Senegal (Sénégal)", "format": "+...-..-...-...." }
+  ],
+  "222": [
+    {
+      "iso2": "mr",
+      "name": "Mauritania (‫موريتانيا‬‎)",
+      "format": "+...-..-..-...."
+    }
+  ],
+  "223": [{ "iso2": "ml", "name": "Mali", "format": "+...-..-..-...." }],
+  "224": [
+    { "iso2": "gn", "name": "Guinea (Guinée)", "format": "+...-..-...-..." }
+  ],
+  "225": [
+    { "iso2": "ci", "name": "Côte d’Ivoire", "format": "+...-..-...-..." }
+  ],
+  "226": [
+    { "iso2": "bf", "name": "Burkina Faso", "format": "+...-..-..-...." }
+  ],
+  "227": [
+    { "iso2": "ne", "name": "Niger (Nijar)", "format": "+...-..-..-...." }
+  ],
+  "228": [{ "iso2": "tg", "name": "Togo", "format": "+...-..-...-..." }],
+  "229": [
+    { "iso2": "bj", "name": "Benin (Bénin)", "format": "+...-..-..-...." }
+  ],
+  "230": [
+    { "iso2": "mu", "name": "Mauritius (Moris)", "format": "+...-...-...." }
+  ],
+  "231": [{ "iso2": "lr", "name": "Liberia", "format": "+...-..-...-..." }],
+  "232": [{ "iso2": "sl", "name": "Sierra Leone", "format": "+...-..-......" }],
+  "233": [
+    { "iso2": "gh", "name": "Ghana (Gaana)", "format": "+...(...)...-..." }
+  ],
+  "234": [{ "iso2": "ng", "name": "Nigeria", "format": "+...-..-...-.." }],
+  "235": [
+    { "iso2": "td", "name": "Chad (Tchad)", "format": "+...-..-..-..-.." }
+  ],
+  "236": [
+    {
+      "iso2": "cf",
+      "name": "Central African Republic (République centrafricaine)",
+      "format": "+...-..-..-...."
+    }
+  ],
+  "237": [
+    { "iso2": "cm", "name": "Cameroon (Cameroun)", "format": "+...-....-...." }
+  ],
+  "238": [
+    {
+      "iso2": "cv",
+      "name": "Cape Verde (Kabu Verdi)",
+      "format": "+...(...)..-.."
+    }
+  ],
+  "239": [
+    {
+      "iso2": "st",
+      "name": "São Tomé and Príncipe (São Tomé e Príncipe)",
+      "format": "+...-..-....."
+    }
+  ],
+  "240": [
+    {
+      "iso2": "gq",
+      "name": "Equatorial Guinea (Guinea Ecuatorial)",
+      "format": "+...-..-...-...."
+    }
+  ],
+  "241": [{ "iso2": "ga", "name": "Gabon", "format": "+...-.-..-..-.." }],
+  "242": [
+    {
+      "iso2": "cg",
+      "name": "Congo (Republic) (Congo-Brazzaville)",
+      "format": "+...-..-...-...."
+    }
+  ],
+  "243": [
+    {
+      "iso2": "cd",
+      "name": "Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)",
+      "format": "+...(...)...-..."
+    }
+  ],
+  "244": [{ "iso2": "ao", "name": "Angola", "format": "+...(...)...-..." }],
+  "245": [
+    {
+      "iso2": "gw",
+      "name": "Guinea-Bissau (Guiné Bissau)",
+      "format": "+...-.-......"
+    }
+  ],
+  "246": [
+    {
+      "iso2": "io",
+      "name": "British Indian Ocean Territory",
+      "format": "+...-...-...."
+    }
+  ],
+  "248": [{ "iso2": "sc", "name": "Seychelles", "format": "+...-.-...-..." }],
+  "249": [
+    { "iso2": "sd", "name": "Sudan (‫السودان‬‎)", "format": "+...-..-...-...." }
+  ],
+  "250": [{ "iso2": "rw", "name": "Rwanda", "format": "+...(...)...-..." }],
+  "251": [{ "iso2": "et", "name": "Ethiopia", "format": "+...-..-...-...." }],
+  "252": [
+    { "iso2": "so", "name": "Somalia (Soomaaliya)", "format": "+...-.-...-..." }
+  ],
+  "253": [{ "iso2": "dj", "name": "Djibouti", "format": "+...-..-..-..-.." }],
+  "254": [{ "iso2": "ke", "name": "Kenya", "format": "+...-...-......" }],
+  "255": [{ "iso2": "tz", "name": "Tanzania", "format": "+...-..-...-...." }],
+  "256": [{ "iso2": "ug", "name": "Uganda", "format": "+...(...)...-..." }],
+  "257": [
+    { "iso2": "bi", "name": "Burundi (Uburundi)", "format": "+...-..-..-...." }
+  ],
+  "258": [
+    {
+      "iso2": "mz",
+      "name": "Mozambique (Moçambique)",
+      "format": "+...-..-...-..."
+    }
+  ],
+  "260": [{ "iso2": "zm", "name": "Zambia", "format": "+...-..-...-...." }],
+  "261": [
+    {
+      "iso2": "mg",
+      "name": "Madagascar (Madagasikara)",
+      "format": "+...-..-..-....."
+    }
+  ],
+  "262": [
+    {
+      "iso2": "re",
+      "name": "Réunion (La Réunion)",
+      "format": "+...-.....-...."
+    },
+    { "iso2": "tf", "name": "French Southern and Antarctic Lands" },
+    { "iso2": "yt", "name": "Mayotte" }
+  ],
+  "263": [{ "iso2": "zw", "name": "Zimbabwe", "format": "+...-.-......" }],
+  "264": [
+    { "iso2": "na", "name": "Namibia (Namibië)", "format": "+...-..-...-...." }
+  ],
+  "265": [{ "iso2": "mw", "name": "Malawi", "format": "+...-.-....-...." }],
+  "266": [{ "iso2": "ls", "name": "Lesotho", "format": "+...-.-...-...." }],
+  "267": [{ "iso2": "bw", "name": "Botswana", "format": "+...-..-...-..." }],
+  "268": [{ "iso2": "sz", "name": "Swaziland", "format": "+...-..-..-...." }],
+  "269": [
+    {
+      "iso2": "km",
+      "name": "Comoros (‫جزر القمر‬‎)",
+      "format": "+...-..-....."
+    }
+  ],
+  "290": [{ "iso2": "sh", "name": "Saint Helena" }],
+  "291": [{ "iso2": "er", "name": "Eritrea", "format": "+...-.-...-..." }],
+  "297": [{ "iso2": "aw", "name": "Aruba", "format": "+...-...-...." }],
+  "298": [
+    {
+      "iso2": "fo",
+      "name": "Faroe Islands (Føroyar)",
+      "format": "+...-...-..."
+    }
+  ],
+  "299": [
+    {
+      "iso2": "gl",
+      "name": "Greenland (Kalaallit Nunaat)",
+      "format": "+...-..-..-.."
+    }
+  ],
+  "350": [{ "iso2": "gi", "name": "Gibraltar", "format": "+...-...-....." }],
+  "351": [{ "iso2": "pt", "name": "Portugal", "format": "+...-..-...-...." }],
+  "352": [{ "iso2": "lu", "name": "Luxembourg", "format": "+...(...)...-..." }],
+  "353": [{ "iso2": "ie", "name": "Ireland", "format": "+... .. ......." }],
+  "354": [
+    { "iso2": "is", "name": "Iceland (Ísland)", "format": "+... ... ...." }
+  ],
+  "355": [
+    { "iso2": "al", "name": "Albania (Shqipëri)", "format": "+...(...)...-..." }
+  ],
+  "356": [{ "iso2": "mt", "name": "Malta", "format": "+...-....-...." }],
+  "357": [
+    { "iso2": "cy", "name": "Cyprus (Κύπρος)", "format": "+...-..-...-..." }
+  ],
+  "358": [
+    { "iso2": "fi", "name": "Finland (Suomi)", "format": "+... .. .... ...." },
+    { "iso2": "ax", "name": "Åland Islands" }
+  ],
+  "359": [
+    {
+      "iso2": "bg",
+      "name": "Bulgaria (България)",
+      "format": "+...(...)...-..."
+    }
+  ],
+  "370": [
+    { "iso2": "lt", "name": "Lithuania (Lietuva)", "format": "+...(...)..-..." }
+  ],
+  "371": [
+    { "iso2": "lv", "name": "Latvia (Latvija)", "format": "+...-..-...-..." }
+  ],
+  "372": [
+    { "iso2": "ee", "name": "Estonia (Eesti)", "format": "+...-...-...." }
+  ],
+  "373": [
+    {
+      "iso2": "md",
+      "name": "Moldova (Republica Moldova)",
+      "format": "+...-....-...."
+    }
+  ],
+  "374": [
+    { "iso2": "am", "name": "Armenia (Հայաստան)", "format": "+...-..-...-..." }
+  ],
+  "375": [
+    {
+      "iso2": "by",
+      "name": "Belarus (Беларусь)",
+      "format": "+...(..)...-..-.."
+    }
+  ],
+  "376": [{ "iso2": "ad", "name": "Andorra", "format": "+...-...-..." }],
+  "377": [{ "iso2": "mc", "name": "Monaco", "format": "+...-..-...-..." }],
+  "378": [{ "iso2": "sm", "name": "San Marino", "format": "+...-....-......" }],
+  "380": [
+    { "iso2": "ua", "name": "Ukraine (Україна)", "format": "+...(..)...-..-.." }
+  ],
+  "381": [
+    { "iso2": "rs", "name": "Serbia (Србија)", "format": "+...-..-...-...." }
+  ],
+  "382": [
+    {
+      "iso2": "me",
+      "name": "Montenegro (Crna Gora)",
+      "format": "+...-..-...-..."
+    }
+  ],
+  "383": [{ "iso2": "xk", "name": "Kosovo" }],
+  "385": [
+    { "iso2": "hr", "name": "Croatia (Hrvatska)", "format": "+...-..-...-..." }
+  ],
+  "386": [
+    {
+      "iso2": "si",
+      "name": "Slovenia (Slovenija)",
+      "format": "+...-..-...-..."
+    }
+  ],
+  "387": [
+    {
+      "iso2": "ba",
+      "name": "Bosnia and Herzegovina (Босна и Херцеговина)",
+      "format": "+...-..-...."
+    }
+  ],
+  "389": [
+    {
+      "iso2": "mk",
+      "name": "Macedonia (FYROM) (Македонија)",
+      "format": "+...-..-...-..."
+    }
+  ],
+  "420": [
+    {
+      "iso2": "cz",
+      "name": "Czech Republic (Česká republika)",
+      "format": "+...(...)...-..."
+    }
+  ],
+  "421": [
+    {
+      "iso2": "sk",
+      "name": "Slovakia (Slovensko)",
+      "format": "+...(...)...-..."
+    }
+  ],
+  "423": [
+    { "iso2": "li", "name": "Liechtenstein", "format": "+...(...)...-...." }
+  ],
+  "500": [
+    {
+      "iso2": "fk",
+      "name": "Falkland Islands (Islas Malvinas)",
+      "format": "+...-....."
+    },
+    { "iso2": "gs", "name": "South Georgia and the South Sandwich Islands" }
+  ],
+  "501": [{ "iso2": "bz", "name": "Belize", "format": "+...-...-...." }],
+  "502": [{ "iso2": "gt", "name": "Guatemala", "format": "+... ....-...." }],
+  "503": [{ "iso2": "sv", "name": "El Salvador", "format": "+... ....-...." }],
+  "504": [{ "iso2": "hn", "name": "Honduras", "format": "+...-....-...." }],
+  "505": [{ "iso2": "ni", "name": "Nicaragua", "format": "+...-....-...." }],
+  "506": [{ "iso2": "cr", "name": "Costa Rica", "format": "+... ....-...." }],
+  "507": [
+    { "iso2": "pa", "name": "Panama (Panamá)", "format": "+...-...-...." }
+  ],
+  "508": [
+    {
+      "iso2": "pm",
+      "name": "Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)"
+    }
+  ],
+  "509": [{ "iso2": "ht", "name": "Haiti", "format": "+... ....-...." }],
+  "590": [
+    { "iso2": "gp", "name": "Guadeloupe" },
+    { "iso2": "bl", "name": "Saint Barthélemy (Saint-Barthélemy)" },
+    { "iso2": "mf", "name": "Saint Martin (Saint-Martin (partie française))" }
+  ],
+  "591": [{ "iso2": "bo", "name": "Bolivia", "format": "+...-.-...-...." }],
+  "592": [{ "iso2": "gy", "name": "Guyana", "format": "+...-...-...." }],
+  "593": [{ "iso2": "ec", "name": "Ecuador", "format": "+...-.-...-...." }],
+  "594": [
+    {
+      "iso2": "gf",
+      "name": "French Guiana (Guyane française)",
+      "format": "+...-.....-...."
+    }
+  ],
+  "595": [{ "iso2": "py", "name": "Paraguay", "format": "+...(...)...-..." }],
+  "596": [
+    { "iso2": "mq", "name": "Martinique", "format": "+...(...)..-..-.." }
+  ],
+  "597": [{ "iso2": "sr", "name": "Suriname", "format": "+...-...-..." }],
+  "598": [{ "iso2": "uy", "name": "Uruguay", "format": "+...-.-...-..-.." }],
+  "599": [
+    { "iso2": "cw", "name": "Curaçao", "format": "+...-...-...." },
+    { "iso2": "bq", "name": "Caribbean Netherlands", "format": "+...-...-...." }
+  ],
+  "670": [{ "iso2": "tl", "name": "Timor-Leste", "format": "+...-...-...." }],
+  "672": [
+    { "iso2": "aq", "name": "Antarctica" },
+    { "iso2": "hm", "name": "Heard Island and McDonald Islands" },
+    { "iso2": "nf", "name": "Norfolk Island", "format": "+...-...-..." }
+  ],
+  "673": [{ "iso2": "bn", "name": "Brunei", "format": "+...-...-...." }],
+  "674": [{ "iso2": "nr", "name": "Nauru", "format": "+...-...-...." }],
+  "675": [
+    { "iso2": "pg", "name": "Papua New Guinea", "format": "+...(...)..-..." }
+  ],
+  "676": [{ "iso2": "to", "name": "Tonga", "format": "+...-....." }],
+  "677": [{ "iso2": "sb", "name": "Solomon Islands", "format": "+...-....." }],
+  "678": [{ "iso2": "vu", "name": "Vanuatu", "format": "+...-....." }],
+  "679": [{ "iso2": "fj", "name": "Fiji", "format": "+...-..-....." }],
+  "680": [{ "iso2": "pw", "name": "Palau", "format": "+...-...-...." }],
+  "681": [
+    { "iso2": "wf", "name": "Wallis and Futuna", "format": "+...-..-...." }
+  ],
+  "682": [{ "iso2": "ck", "name": "Cook Islands", "format": "+...-..-..." }],
+  "683": [{ "iso2": "nu", "name": "Niue", "format": "+...-...." }],
+  "685": [{ "iso2": "ws", "name": "Samoa", "format": "+...-..-...." }],
+  "686": [{ "iso2": "ki", "name": "Kiribati", "format": "+...-..-..." }],
+  "687": [
+    {
+      "iso2": "nc",
+      "name": "New Caledonia (Nouvelle-Calédonie)",
+      "format": "+...-..-...."
+    }
+  ],
+  "688": [{ "iso2": "tv", "name": "Tuvalu", "format": "+...-....." }],
+  "689": [
+    {
+      "iso2": "pf",
+      "name": "French Polynesia (Polynésie française)",
+      "format": "+...-..-..-.."
+    }
+  ],
+  "690": [{ "iso2": "tk", "name": "Tokelau", "format": "+...-...." }],
+  "691": [{ "iso2": "fm", "name": "Micronesia", "format": "+...-...-...." }],
+  "692": [
+    { "iso2": "mh", "name": "Marshall Islands", "format": "+...-...-...." }
+  ],
+  "850": [
+    {
+      "iso2": "kp",
+      "name": "North Korea (조선 민주주의 인민 공화국)",
+      "format": "+...-...-..."
+    }
+  ],
+  "852": [
+    { "iso2": "hk", "name": "Hong Kong (香港)", "format": "+... .... ...." }
+  ],
+  "853": [{ "iso2": "mo", "name": "Macau (澳門)", "format": "+...-....-...." }],
+  "855": [
+    { "iso2": "kh", "name": "Cambodia (កម្ពុជា)", "format": "+...-..-...-..." }
+  ],
+  "856": [{ "iso2": "la", "name": "Laos (ລາວ)", "format": "+...-..-...-..." }],
+  "880": [
+    {
+      "iso2": "bd",
+      "name": "Bangladesh (বাংলাদেশ)",
+      "format": "+...-..-...-..."
+    }
+  ],
+  "886": [
+    { "iso2": "tw", "name": "Taiwan (台灣)", "format": "+...-....-...." }
+  ],
+  "960": [{ "iso2": "mv", "name": "Maldives", "format": "+...-...-...." }],
+  "961": [
+    { "iso2": "lb", "name": "Lebanon (‫لبنان‬‎)", "format": "+...-.-...-..." }
+  ],
+  "962": [
+    { "iso2": "jo", "name": "Jordan (‫الأردن‬‎)", "format": "+...-.-....-...." }
+  ],
+  "963": [
+    { "iso2": "sy", "name": "Syria (‫سوريا‬‎)", "format": "+...-..-....-..." }
+  ],
+  "964": [
+    { "iso2": "iq", "name": "Iraq (‫العراق‬‎)", "format": "+...(...)...-...." }
+  ],
+  "965": [
+    { "iso2": "kw", "name": "Kuwait (‫الكويت‬‎)", "format": "+...-....-...." }
+  ],
+  "966": [
+    {
+      "iso2": "sa",
+      "name": "Saudi Arabia (‫المملكة العربية السعودية‬‎)",
+      "format": "+...-.-...-...."
+    }
+  ],
+  "967": [
+    { "iso2": "ye", "name": "Yemen (‫اليمن‬‎)", "format": "+...-.-...-..." }
+  ],
+  "968": [
+    { "iso2": "om", "name": "Oman (‫عُمان‬‎)", "format": "+...-..-...-..." }
+  ],
+  "970": [
+    {
+      "iso2": "ps",
+      "name": "Palestine (‫فلسطين‬‎)",
+      "format": "+...-..-...-...."
+    }
+  ],
+  "971": [
+    {
+      "iso2": "ae",
+      "name": "United Arab Emirates (‫الإمارات العربية المتحدة‬‎)",
+      "format": "+...-.-...-...."
+    }
+  ],
+  "972": [
+    { "iso2": "il", "name": "Israel (‫ישראל‬‎)", "format": "+...-.-...-...." }
+  ],
+  "973": [
+    { "iso2": "bh", "name": "Bahrain (‫البحرين‬‎)", "format": "+...-....-...." }
+  ],
+  "974": [
+    { "iso2": "qa", "name": "Qatar (‫قطر‬‎)", "format": "+...-....-...." }
+  ],
+  "975": [
+    { "iso2": "bt", "name": "Bhutan (འབྲུག)", "format": "+...-.-...-..." }
+  ],
+  "976": [
+    { "iso2": "mn", "name": "Mongolia (Монгол)", "format": "+...-..-..-...." }
+  ],
+  "977": [
+    { "iso2": "np", "name": "Nepal (नेपाल)", "format": "+...-..-...-..." }
+  ],
+  "992": [{ "iso2": "tj", "name": "Tajikistan", "format": "+...-..-...-...." }],
+  "993": [
+    { "iso2": "tm", "name": "Turkmenistan", "format": "+...-.-...-...." }
+  ],
+  "994": [
+    {
+      "iso2": "az",
+      "name": "Azerbaijan (Azərbaycan)",
+      "format": "+...-..-...-..-.."
+    }
+  ],
+  "995": [
+    {
+      "iso2": "ge",
+      "name": "Georgia (საქართველო)",
+      "format": "+...(...)...-..."
+    }
+  ],
+  "996": [
+    {
+      "iso2": "kg",
+      "name": "Kyrgyzstan (Кыргызстан)",
+      "format": "+...(...)...-..."
+    }
+  ],
+  "998": [
+    {
+      "iso2": "uz",
+      "name": "Uzbekistan (Oʻzbekiston)",
+      "format": "+...-..-...-...."
+    }
+  ],
+  "1242": [{ "iso2": "bs", "name": "Bahamas", "format": "+.(...)...-...." }],
+  "1246": [{ "iso2": "bb", "name": "Barbados", "format": "+.(...)...-...." }],
+  "1264": [{ "iso2": "ai", "name": "Anguilla", "format": "+.(...)...-...." }],
+  "1268": [
+    { "iso2": "ag", "name": "Antigua and Barbuda", "format": "+.(...)...-...." }
+  ],
+  "1284": [
+    {
+      "iso2": "vg",
+      "name": "British Virgin Islands",
+      "format": "+.(...)...-...."
+    }
+  ],
+  "1340": [
+    { "iso2": "vi", "name": "U.S. Virgin Islands", "format": "+.(...)...-...." }
+  ],
+  "1345": [
+    { "iso2": "ky", "name": "Cayman Islands", "format": "+.(...)...-...." }
+  ],
+  "1441": [{ "iso2": "bm", "name": "Bermuda", "format": "+.(...)...-...." }],
+  "1473": [{ "iso2": "gd", "name": "Grenada", "format": "+.(...)...-...." }],
+  "1649": [
+    {
+      "iso2": "tc",
+      "name": "Turks and Caicos Islands",
+      "format": "+.(...)...-...."
+    }
+  ],
+  "1664": [{ "iso2": "ms", "name": "Montserrat", "format": "+.(...)...-...." }],
+  "1670": [
+    {
+      "iso2": "mp",
+      "name": "Northern Mariana Islands",
+      "format": "+.(...)...-...."
+    }
+  ],
+  "1671": [{ "iso2": "gu", "name": "Guam", "format": "+.(...)...-...." }],
+  "1684": [
+    { "iso2": "as", "name": "American Samoa", "format": "+.(...)...-...." }
+  ],
+  "1721": [
+    { "iso2": "sx", "name": "Sint Maarten", "format": "+.(...)...-...." }
+  ],
+  "1758": [
+    { "iso2": "lc", "name": "Saint Lucia", "format": "+.(...)...-...." }
+  ],
+  "1767": [{ "iso2": "dm", "name": "Dominica", "format": "+.(...)...-...." }],
+  "1784": [
+    {
+      "iso2": "vc",
+      "name": "Saint Vincent and the Grenadines",
+      "format": "+.(...)...-...."
+    }
+  ],
+  "1868": [
+    { "iso2": "tt", "name": "Trinidad and Tobago", "format": "+.(...)...-...." }
+  ],
+  "1869": [
+    {
+      "iso2": "kn",
+      "name": "Saint Kitts and Nevis",
+      "format": "+.(...)...-...."
+    }
+  ],
+  "1876": [{ "iso2": "jm", "name": "Jamaica", "format": "+.(...)...-...." }]
+}
