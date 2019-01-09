@@ -1,50 +1,36 @@
-'use strict'
+'use strict';
 
-var allCountries = require('./data');
+// { [dialCode]: [{ iso2, name, format?, areaCodes? }] }
+var data = require('./data');
 
-// we will build this in the loop below
+var allCountries = [];
 var allCountryCodes = {};
 var iso2Lookup = {};
-var addCountryCode = function (iso2, dialCode, priority) {
-    if (!(dialCode in allCountryCodes)) {
-        allCountryCodes[dialCode] = [];
+
+var dialCodes = Object.keys(data);
+for (var i = 0; i < dialCodes.length; i++) {
+  var dialCode = dialCodes[i];
+  var countries = data[dialCode];
+  allCountryCodes[dialCode] = [];
+  for (var priority = 0; priority < countries.length; priority++) {
+    var country = countries[priority];
+    country.dialCode = dialCode;
+    country.priority = priority;
+    iso2Lookup[country.iso2] = allCountries.length;
+    allCountries.push(country);
+    if (country.areaCodes) {
+      country.hasAreaCodes = true;
+      for (var j = 0; j < country.areaCodes.length; j++) {
+        var areaCode = dialCode + country.areaCodes[j];
+        allCountryCodes[areaCode] = [country.iso2];
+      }
     }
-    var index = priority || 0;
-    allCountryCodes[dialCode][index] = iso2;
-};
-
-for (var i = 0; i < allCountries.length; i++) {
-   // countries
-   var c = allCountries[i];
-   allCountries[i] = {
-       name: c[0],
-       iso2: c[1],
-       dialCode: c[2],
-       priority: c[4] || 0
-   };
-
-   // format
-   if (c[3]) {
-       allCountries[i].format = c[3];
-   }
-
-   // area codes
-   if (c[5]) {
-       allCountries[i].hasAreaCodes = true;
-       for (var j = 0; j < c[5].length; j++) {
-           // full dial code is country code + dial code
-           var dialCode = c[2] + c[5][j];
-           addCountryCode(c[1], dialCode);
-       }
-   }
-   iso2Lookup[allCountries[i].iso2] = i;
-
-   // dial codes
-   addCountryCode(c[1], c[2], c[4]);
+    allCountryCodes[dialCode].push(country.iso2);
+  }
 }
 
 module.exports = {
-           allCountries: allCountries,
-           iso2Lookup: iso2Lookup,
-           allCountryCodes: allCountryCodes
-       };
+  allCountries: allCountries,
+  iso2Lookup: iso2Lookup,
+  allCountryCodes: allCountryCodes
+};
