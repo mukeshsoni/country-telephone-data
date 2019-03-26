@@ -1104,7 +1104,7 @@ var allCountries = [
           'Philippines',
           'ph',
           '63',
-          '+.. ... ....'
+          '+.. ..........'
        ],
        [
           'Pitcairn Islands',
