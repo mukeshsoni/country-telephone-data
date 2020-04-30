@@ -315,7 +315,7 @@ var allCountries = [
   ],
   ["United Kingdom", "gb", "44", "+.. .... ......"],
   ["United States", "us", "1", "+. (...) ...-....", 0],
-  ["United States Minor Outlying Islands", "um", "1", "", 1],
+  ["United States Minor Outlying Islands", "um", "1", "", 2],
   ["Uruguay", "uy", "598", "+...-.-...-..-.."],
   ["Uzbekistan (Oʻzbekiston)", "uz", "998", "+...-..-...-...."],
   ["Vanuatu", "vu", "678", "+...-....."],
