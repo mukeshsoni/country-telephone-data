@@ -7,7 +7,13 @@
     "type": "git",
     "url": "https://github.com/mukeshsoni/country-telephone-data"
   },
-  "keywords": ["country", "telephone", "data", "format", "code"],
+  "keywords": [
+    "country",
+    "telephone",
+    "data",
+    "format",
+    "code"
+  ],
   "author": "Mukesh Soni <mukeshsoni@gmail.com> (http://unstack.in/)",
   "license": "MIT"
 }
