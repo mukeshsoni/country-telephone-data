@@ -1,6 +1,6 @@
 {
   "name": "country-telephone-data",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Has country codes for all countries in the world. Please send a PR if you see something missing or find a mistake.",
   "main": "country_telephone_data.js",
   "repository": {
