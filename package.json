@@ -1,22 +1,13 @@
 {
-    "name": "country-telephone-data",
-    "version": "0.6.2",
-    "description": "Has country codes for all countries in the world. Please send a PR if you see something missing or find a mistake.",
-    "main": "country_telephone_data.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mukeshsoni/country-telephone-data"
-    },
-    "keywords": [
-        "country",
-        "telephone",
-        "data",
-        "format",
-        "code"
-    ],
-    "author": "Mukesh Soni <mukeshsoni@gmail.com> (http://unstack.in/)",
-    "license": "MIT"
+  "name": "country-telephone-data",
+  "version": "0.6.2",
+  "description": "Has country codes for all countries in the world. Please send a PR if you see something missing or find a mistake.",
+  "main": "country_telephone_data.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mukeshsoni/country-telephone-data"
+  },
+  "keywords": ["country", "telephone", "data", "format", "code"],
+  "author": "Mukesh Soni <mukeshsoni@gmail.com> (http://unstack.in/)",
+  "license": "MIT"
 }
