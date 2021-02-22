@@ -364,7 +364,7 @@ for (var i = 0; i < allCountries.length; i++) {
       addCountryCode(c[1], dialCode);
     }
   }
-  iso2Lookup[allCountries[i].iso2] = i;
+  iso2Lookup[c.iso2] = c;
 
   // dial codes
   addCountryCode(c[1], c[2], c[4]);
