@@ -30,7 +30,7 @@ var allCountries = [
   ["Bolivia", "bo", "591", "+...-.-...-...."],
   ["Bosnia and Herzegovina (Босна и Херцеговина)", "ba", "387", "+...-..-...."],
   ["Botswana", "bw", "267", "+...-..-...-..."],
-  ["Bouvet Island", "bv", "47", ""],
+  ["Bouvet Island", "bv", "55", ""],
   ["Brazil (Brasil)", "br", "55", "+..-..-....-...."],
   ["British Indian Ocean Territory", "io", "246", "+...-...-...."],
   ["British Virgin Islands", "vg", "1284", "+.(...)...-...."],
